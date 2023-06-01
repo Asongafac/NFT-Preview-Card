@@ -1,0 +1,91 @@
+/* style for all the page */
+:root{
+    --primary: hsl(215, 51%, 70%);
+    --mainBG:  hsl(217, 54%, 11%);
+    --cardBG:  hsl(216, 50%, 16%);
+    --none: hsl(0, 0%, 100%);
+    --veryDarkBG:  hsl(215, 32%, 27%);
+    --cyan:hsl(178, 100%, 50%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--mainBG);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* main centerd card styling */
+
+.main{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cardBG);
+   border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h3{
+    color: var(--none);
+    font-weight: 600;
+}
+
+.content p{
+    color: var(--primary);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 300; */
+    /* font-size: 18px; */
+}
+
+.more{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more h4{
+    color: cyan;
+    font-weight: 400;
+}
+
+.last_content{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.last_content img{
+    width: 100%;
+    height: 100%;
+}
+
+.last{
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid var(--none);
+}
+
+.last2{
+    padding-left: 15px;
+}
+
+span{
+    color: var(--none);
+}
